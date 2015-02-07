@@ -63,6 +63,7 @@
 (require 'config-company)
 
 ;; Modes
+(require 'config-agda-mode)
 (require 'config-prog-mode)
 (require 'config-python-mode)
 
