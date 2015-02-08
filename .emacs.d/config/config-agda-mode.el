@@ -1,5 +1,8 @@
 (custom-set-variables
- '(agda2-include-dirs (quote ("." "/home/freaken/git/agda-stdlib/src"))))
+ '(agda2-include-dirs
+   (quote ("."
+           (expand-file-name "~/git/agda-stdlib/src")
+           ))))
 (custom-set-faces
  '(agda2-highlight-datatype-face ((t (:foreground "deep sky blue"))))
  '(agda2-highlight-function-face ((t (:foreground "deep sky blue"))))
