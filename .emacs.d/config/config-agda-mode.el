@@ -12,7 +12,7 @@
  '(agda2-highlight-record-face ((t (:foreground "deep sky blue")))))
 
 (let ((coding-system-for-read 'utf-8)
-      (agda-el-path (shell-command-to-string "agda-mode locate"))
+      (agda-el-path (shell-command-to-string "agda-mode locate 2>/dev/null"))
       )
   (unless (equal "" agda-el-path)
     (load-file agda-el-path)
