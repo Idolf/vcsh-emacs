@@ -64,6 +64,7 @@
 
 ;; Modes
 (require 'config-agda-mode)
+(require 'config-haskell-mode)
 (require 'config-prog-mode)
 (require 'config-python-mode)
 
