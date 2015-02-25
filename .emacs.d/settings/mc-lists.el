@@ -14,7 +14,10 @@
         erlang-electric-comma
         evil-numbers/dec-at-pt
         evil-numbers/inc-at-pt
+        haskell-indentation-delete-backward-char
+        haskell-indentation-delete-char
         indent-for-tab-command
+        kill-or-join-next-line
         kill-or-join-next-line
         kmacro-end-or-call-macro
         kmacro-start-macro-or-insert-counter
