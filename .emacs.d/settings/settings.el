@@ -136,6 +136,7 @@
     git-timemachine
     gitconfig-mode
     gitignore-mode
+    git-auto-commit-mode
     haskell-mode
     highlight-chars
     ido-ubiquitous
