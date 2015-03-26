@@ -55,7 +55,7 @@
 (require 'config-ido)
 (require 'config-hippie)
 (require 'config-smart-mode-line)
-(require 'config-minimap)
+;; (require 'config-minimap)
 (require 'config-adaptive-wrap)
 (require 'config-god-mode)
 

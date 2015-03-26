@@ -28,6 +28,7 @@
         nav-half-page-up
         nav-next-line
         nav-previous-line
+        open-line-above
         prelude-move-beginning-of-line
         subword-left
         subword-right
