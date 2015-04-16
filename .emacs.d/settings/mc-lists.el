@@ -18,7 +18,6 @@
         haskell-indentation-delete-char
         indent-for-tab-command
         kill-or-join-next-line
-        kill-or-join-next-line
         kmacro-end-or-call-macro
         kmacro-start-macro-or-insert-counter
         mc-search-backward
