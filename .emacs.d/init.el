@@ -68,6 +68,9 @@
 (require 'config-prog-mode)
 (require 'config-python-mode)
 
+;; Twef
+(require 'config-twelf)
+
 ;; Defuns
 (require 'defuns-packages)
 (require 'defuns-windows)
