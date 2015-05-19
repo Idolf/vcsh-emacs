@@ -38,4 +38,5 @@
 
 (setq mc/cmds-to-run-once
       '(
+        minimap-mode
         ))
