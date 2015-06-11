@@ -120,7 +120,7 @@
   '(
     ace-jump-mode
     ace-jump-buffer
-    adaptive-wrap
+;;    adaptive-wrap
     anaconda-mode
     anzu
     bm
@@ -140,7 +140,7 @@
     haskell-mode
     highlight-chars
     ido-ubiquitous
-    minimap
+;;    minimap
     move-text
     multifiles
     multiple-cursors
@@ -161,8 +161,9 @@
 
 ;; List of ELPA replacements
 (defvar config-replacements
-  '((minimap       . "https://github.com/br0ns/minimap/raw/master/minimap.el")
-    (adaptive-wrap . "https://github.com/br0ns/adaptive-wrap/raw/master/adaptive-wrap.el")
+  '(
+;;    (minimap       . "https://github.com/br0ns/minimap/raw/master/minimap.el")
+;;    (adaptive-wrap . "https://github.com/br0ns/adaptive-wrap/raw/master/adaptive-wrap.el")
     )
   "A list of replacements for `package` packages.  Will be installed
 by `require-package`."
