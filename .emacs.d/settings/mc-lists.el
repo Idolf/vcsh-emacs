@@ -3,6 +3,8 @@
 
 (setq mc/cmds-to-run-for-all
       '(
+        TeX-insert-backslash
+        TeX-insert-dollar
         c-electric-colon
         c-electric-delete-forward
         c-electric-paren
@@ -38,5 +40,6 @@
 
 (setq mc/cmds-to-run-once
       '(
+        end-of-buffer
         minimap-mode
         ))

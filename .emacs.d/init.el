@@ -56,7 +56,7 @@
 (require 'config-hippie)
 (require 'config-smart-mode-line)
 ;; (require 'config-minimap)
-(require 'config-adaptive-wrap)
+;; (require 'config-adaptive-wrap)
 (require 'config-god-mode)
 
 (require 'config-multiple-cursors)
