@@ -5,6 +5,7 @@
       '(
         TeX-insert-backslash
         TeX-insert-dollar
+        TeX-insert-sub-or-superscript
         c-electric-colon
         c-electric-delete-forward
         c-electric-paren
@@ -33,6 +34,7 @@
         prelude-move-beginning-of-line
         subword-left
         subword-right
+        tex-insert-quote
         whole-line-or-region-kill-region
         whole-line-or-region-kill-ring-save
         whole-line-or-region-yank
