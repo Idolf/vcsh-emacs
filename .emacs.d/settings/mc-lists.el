@@ -32,6 +32,8 @@
         nav-previous-line
         open-line-above
         prelude-move-beginning-of-line
+        sgml-close-tag
+        sgml-slash
         subword-left
         subword-right
         tex-insert-quote
