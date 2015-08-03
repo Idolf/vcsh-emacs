@@ -122,6 +122,7 @@
     ace-jump-buffer
 ;;    adaptive-wrap
     anaconda-mode
+    auctex
     anzu
     bm
     browse-kill-ring
