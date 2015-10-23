@@ -194,6 +194,7 @@
   (require 'whitespace)
   (diminish 'global-whitespace-mode)
   (setq whitespace-line-column config-fill-column)
+  (setq whitespace-global-modes '(not agda2-mode))
   (setq whitespace-style
         (quote
          (face tabs trailing lines-tail)

@@ -15,6 +15,7 @@
         c-electric-slash
         c-electric-star
         c-indent-line-or-region
+        eri-indent
         erlang-electric-comma
         evil-numbers/dec-at-pt
         evil-numbers/inc-at-pt
@@ -38,6 +39,7 @@
         subword-left
         subword-right
         tex-insert-quote
+        whole-line-or-region-comment-dwim-3
         whole-line-or-region-kill-region
         whole-line-or-region-kill-ring-save
         whole-line-or-region-yank
