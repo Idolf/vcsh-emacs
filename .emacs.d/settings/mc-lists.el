@@ -21,6 +21,7 @@
         evil-numbers/inc-at-pt
         haskell-indentation-delete-backward-char
         haskell-indentation-delete-char
+        ido-switch-buffer
         indent-for-tab-command
         kill-or-join-next-line
         kmacro-end-or-call-macro
