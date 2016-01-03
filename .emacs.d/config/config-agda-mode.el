@@ -1,6 +1,6 @@
 (custom-set-variables
   '(agda-input-user-translations '(("Ep!" "Ɛ")))
-  '(agda2-include-dirs '("." "/home/freaken/git/agda-stdlib/src")))
+  '(agda2-include-dirs '("." "/home/idolf/git/agda-stdlib/src")))
 (custom-set-faces
   '(agda2-highlight-datatype-face ((t (:foreground "deep sky blue"))))
   '(agda2-highlight-function-face ((t (:foreground "deep sky blue"))))
