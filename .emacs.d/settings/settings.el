@@ -121,13 +121,13 @@
     ace-jump-mode
     ace-jump-buffer
 ;;    adaptive-wrap
-    anaconda-mode
+;;    anaconda-mode
     auctex
     anzu
     bm
     browse-kill-ring
     company
-    company-anaconda
+;;    company-anaconda
     dash
     discover-my-major
     diminish
