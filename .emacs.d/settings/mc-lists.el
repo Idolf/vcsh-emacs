@@ -49,5 +49,6 @@
 (setq mc/cmds-to-run-once
       '(
         end-of-buffer
+        mc/mark-all-in-region
         minimap-mode
         ))
