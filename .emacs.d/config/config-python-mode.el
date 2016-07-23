@@ -60,5 +60,6 @@
   )
 
 (add-hook 'python-mode-hook 'config-python-mode-defaults)
+(add-hook 'python-mode-hook 'flycheck-mode)
 
 (provide 'config-python-mode)

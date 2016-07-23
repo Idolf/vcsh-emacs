@@ -121,18 +121,19 @@
     ace-jump-mode
     ace-jump-buffer
 ;;    adaptive-wrap
-;;    anaconda-mode
+    anaconda-mode
     auctex
     anzu
     bm
     browse-kill-ring
     company
-;;    company-anaconda
+    company-anaconda
     dash
     discover-my-major
     diminish
     expand-region
     flycheck
+    flycheck-rust
     flx-ido
     git-timemachine
     gitconfig-mode
@@ -147,6 +148,8 @@
     multiple-cursors
     projectile
     rust-mode
+    racer
+    cargo
     smart-mode-line
     smart-mode-line-powerline-theme
     smartparens

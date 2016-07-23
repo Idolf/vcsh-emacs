@@ -38,6 +38,15 @@
 ;; Initialize package manager
 (package-initialize)
 
+;; Defuns
+(require 'defuns-packages)
+(require 'defuns-windows)
+(require 'defuns-movement)
+(require 'defuns-editing)
+(require 'defuns-files)
+(require 'defuns-misc)
+(require 'evil-numbers)
+
 ;; Global key bindings are stored in
 ;; `<user-emacs-directory>/global-key-bindings.el'
 (require 'global-key-bindings)
@@ -64,19 +73,12 @@
 
 ;; Modes
 (require 'config-agda-mode)
+(require 'config-flycheck-mode)
 (require 'config-haskell-mode)
 (require 'config-prog-mode)
 (require 'config-python-mode)
+(require 'config-rust-mode)
 
 ;; Twef
 (require 'config-twelf)
-
-;; Defuns
-(require 'defuns-packages)
-(require 'defuns-windows)
-(require 'defuns-movement)
-(require 'defuns-editing)
-(require 'defuns-files)
-(require 'defuns-misc)
-(require 'evil-numbers)
 (put 'scroll-left 'disabled nil)

@@ -53,14 +53,14 @@ Missing packages are installed automatically."
 
 (defun install-packages ()
   "Install all packages listed in `config-packages'."
-  (unless (packages-installed-p)
+;;  (unless (packages-installed-p)
     ;; check for new packages (package versions)
     (message "%s" "Refreshing package database...")
     (package-refresh-contents)
     (message "%s" " done.")
     ;; install the missing packages
     (require-packages config-packages)
-    )
+;;    )
   )
 
 (defun list-foreign-packages ()
