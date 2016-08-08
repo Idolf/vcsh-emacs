@@ -15,6 +15,7 @@
         c-electric-slash
         c-electric-star
         c-indent-line-or-region
+        company-indent-or-complete-common
         eri-indent
         erlang-electric-comma
         evil-numbers/dec-at-pt
