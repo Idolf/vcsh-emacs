@@ -72,6 +72,7 @@
     ".vrb"
     ".pyc"
     ".pyo"
+    ".agdai"
     ".elc")
   "Extensions to ignore when finding files"
   )
