@@ -5,6 +5,11 @@
 (add-hook 'rust-mode-hook 'rust-enable-format-on-save)
 (add-hook 'rust-mode-hook 'flycheck-mode)
 (add-hook 'rust-mode-hook 'cargo-minor-mode)
+(add-hook 'rust-mode-hook (lambda ()
+                            (make-local-variable 'whitespace-line-column)
+                            (setq whitespace-line-column 100)))
+(add-hook 'rust-mode-hook (lambda ()
+                            (setq fill-column 100)))
 
 (add-hook 'racer-mode-hook 'eldoc-mode)
 (add-hook 'racer-mode-hook 'company-mode)
