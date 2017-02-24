@@ -157,6 +157,7 @@
     smartrep
     smex
     tangotango-theme
+    toml-mode
     undo-tree
     whole-line-or-region
     zoom-frm
