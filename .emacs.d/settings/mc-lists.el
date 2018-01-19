@@ -7,6 +7,7 @@
         TeX-insert-backslash
         TeX-insert-dollar
         TeX-insert-sub-or-superscript
+        c-electric-brace
         c-electric-colon
         c-electric-delete-forward
         c-electric-paren
@@ -35,6 +36,7 @@
         nav-next-line
         nav-previous-line
         open-line-above
+        overwrite-mode
         prelude-move-beginning-of-line
         sgml-close-tag
         sgml-slash
@@ -45,10 +47,14 @@
         whole-line-or-region-kill-region
         whole-line-or-region-kill-ring-save
         whole-line-or-region-yank
+        yaml-electric-backspace
+        yaml-electric-bar-and-angle
+        yaml-electric-dash-and-dot
         ))
 
 (setq mc/cmds-to-run-once
       '(
+        beginning-of-buffer
         end-of-buffer
         mc/mark-all-in-region
         minimap-mode

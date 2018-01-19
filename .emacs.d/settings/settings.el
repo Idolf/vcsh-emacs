@@ -142,7 +142,7 @@
     git-auto-commit-mode
     haskell-mode
     highlight-chars
-    ido-ubiquitous
+    ido-completing-read+
 ;;    minimap
     move-text
     multifiles
@@ -161,6 +161,7 @@
     undo-tree
     whole-line-or-region
     zoom-frm
+    hledger-mode
     )
   "A list of packages that should be installed"
   )

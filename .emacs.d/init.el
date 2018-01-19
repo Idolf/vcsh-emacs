@@ -78,6 +78,7 @@
 (require 'config-prog-mode)
 (require 'config-python-mode)
 (require 'config-rust-mode)
+(require 'config-hledger-mode)
 
 ;; Twef
 (require 'config-twelf)

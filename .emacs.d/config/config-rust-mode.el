@@ -17,7 +17,7 @@
           (lambda ()
             (local-set-key (kbd "M-.") #'racer-find-definition)
             (local-set-key (kbd "TAB") #'company-indent-or-complete-common)
-            (setq-local company-idle-delay 0.2)
+            (setq-local company-idle-delay 0.4)
             (setq-local company-minimum-prefix-length 1)))
 
 (provide 'config-rust-mode)
