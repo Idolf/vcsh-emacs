@@ -9,5 +9,6 @@
 !/.emacs.d/install-packages.sh
 !/.emacs.d/settings
 !/.emacs.d/settings/*.el
+!/.emacs.d/.rgignore
 !/.gitignore.d
 !/.gitignore.d/emacs
