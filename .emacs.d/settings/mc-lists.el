@@ -21,6 +21,7 @@
         erlang-electric-comma
         evil-numbers/dec-at-pt
         evil-numbers/inc-at-pt
+        fill-paragraph
         haskell-indentation-delete-backward-char
         haskell-indentation-delete-char
         ido-switch-buffer
@@ -55,7 +56,9 @@
 (setq mc/cmds-to-run-once
       '(
         beginning-of-buffer
+        duplicate-current-line-or-region
         end-of-buffer
         mc/mark-all-in-region
         minimap-mode
+        previous-buffer
         ))

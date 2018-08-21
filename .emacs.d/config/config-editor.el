@@ -283,8 +283,8 @@ indent yanked text (with prefix arg don't indent)."
 (semantic-mode t)
 
 ;; Enable filladapt mode everywhere
-(require 'filladapt)
-(filladapt-mode t)
+;; (require 'filladapt)
+;; (filladapt-mode t)
 
 (add-hook 'emacs-startup-hook 'toggle-window-split)
 
