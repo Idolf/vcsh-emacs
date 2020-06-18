@@ -141,7 +141,7 @@
     gitignore-mode
     git-auto-commit-mode
     haskell-mode
-    highlight-chars
+;;    highlight-chars
     ido-completing-read+
 ;;    minimap
     move-text
@@ -160,7 +160,7 @@
     toml-mode
     undo-tree
     whole-line-or-region
-    zoom-frm
+;;    zoom-frm
     hledger-mode
     )
   "A list of packages that should be installed"

@@ -37,6 +37,7 @@
         nav-next-line
         nav-previous-line
         open-line-above
+        org-self-insert-command
         overwrite-mode
         prelude-move-beginning-of-line
         sgml-close-tag

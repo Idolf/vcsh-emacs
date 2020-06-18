@@ -187,7 +187,7 @@
 (require 'browse-kill-ring)
 
 ;; Make zooming affect frame instead of buffers
-(require 'zoom-frm)
+;; (require 'zoom-frm)
 
 ;; Mark lines that are too long
 (when config-show-whitespace
